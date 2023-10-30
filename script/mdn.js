@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.2
 // @description  点击 MDN 链接，自动跳转至中文路由
-// @author       Ares-Chang
+// @author       [Ares-Chang](https://github.com/Ares-Chang)
 // @match        https://developer.mozilla.org/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=mozilla.org
 // @link         https://github.com/Ares-Chang/tampermonkey
@@ -14,7 +14,8 @@
 
   const url = window.location.href
 
-  if (url.includes('/zh-CN/')) return
+  // 如果 url 包含中文路由 || 包含 _stop 字段，则直接跳过
+  if (url.includes('/zh-CN/') || url.includes('_stop')) return
 
   const language = document.querySelector('#languages-switcher-button')
 
