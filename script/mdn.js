@@ -2,6 +2,7 @@
 // @name         自动跳转 MDN 中文
 // @namespace    http://tampermonkey.net/
 // @version      0.2
+// @license      MIT
 // @description  点击 MDN 链接，自动跳转至中文路由
 // @author       [Ares-Chang](https://github.com/Ares-Chang)
 // @match        https://developer.mozilla.org/*
