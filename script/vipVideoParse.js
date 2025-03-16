@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         跳转 VIP 视频解析
 // @namespace    http://tampermonkey.net/
-// @version      0.0.1
+// @version      0.0.2
 // @description  跳转 VIP 视频解析
 // @author       [Ares-Chang](https://github.com/Ares-Chang)
 // @match        https://v.qq.com/*
@@ -9,7 +9,7 @@
 // @match        https://www.iqiyi.com/*
 // @match        https://www.youku.com/*
 // @match        https://v.youku.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=douyin.com
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=mgtv.com
 // @grant        none
 // ==/UserScript==
 
