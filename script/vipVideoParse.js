@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name         跳转 VIP 视频解析
 // @namespace    http://tampermonkey.net/
-// @version      0.0.2
-// @description  跳转 VIP 视频解析
+// @version      0.0.3
+// @license      MIT
+// @description  在视频页跳转 VIP 视频解析网站
 // @author       [Ares-Chang](https://github.com/Ares-Chang)
 // @match        https://v.qq.com/*
 // @match        https://www.mgtv.com/*
